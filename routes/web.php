@@ -22,7 +22,7 @@ Route::get('/first', function () {
     return 'Hello Laravel';
 });
 
-Route::get('/test', [UserAuthController::class, 'indexPage']);
+Route::get('/test', [AuthController::class, 'indexPage']);
 
 
 // Route::group(['prefix' => 'user'], function(){
